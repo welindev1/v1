@@ -136,7 +136,7 @@ export const certifications: Certification[] = [
     name: 'Tecnico en Diseño de Paginas Web',
     issuer: 'CENTU',
     date: '2024',
-    credentialUrl: 'https://welindev.vercel.app',
+    credentialUrl: 'https://imgur.com/APDPS2H.png',
     image: 'https://imgur.com/APDPS2H.png',
   }
 ];
