@@ -83,14 +83,15 @@ export const experiences: Experience[] = [
 
 
 export const projects: Project[] = [
-  // {
-  //   id: 'spotify-app',
-  //   title: 'Build a Spotify Connected App',
-  //   description:
-  //     'Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.',
-  //   technologies: ['React', 'Express', 'Spotify API'],
-  //   image: 'Spotify App',
-  // },
+  {
+    id: 'welinstore-app',
+    title: 'Welinstore',
+    description:
+      'E-commerce platform for selling products online for MTA: San Andreas.',
+    technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    image: 'https://imgur.com/jDHxQwk.png',
+    link: 'https://welinstore.com',
+  },
 ];
 
 export const skillCategories: SkillCategory[] = [
