@@ -48,7 +48,7 @@ export const profileData = {
   name: 'WelinDev',
   role: 'Web Developer',
   description: 'Creo experiencias digitales accesibles y con píxeles perfectos para la web.',
-  resumeUrl: 'https://www.mediafire.com/file/zg4m5dmdj2btcs2/CVs.pdf/file',
+  resumeUrl: '/CVs.pdf',
 };
 
 export const navigationItems: NavItem[] = [
