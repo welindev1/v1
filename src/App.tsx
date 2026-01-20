@@ -1,5 +1,5 @@
 import { Header, Footer } from './components/layout';
-import { About, Experience, Skills, Projects } from './components/sections';
+import { About, Experience, Skills, Certifications, Projects } from './components/sections';
 import { useMousePosition, useActiveSection } from './hooks';
 import { navigationItems } from './data/portfolio';
 
@@ -25,6 +25,7 @@ function App() {
           <Skills />
           <Experience />
           <Projects />
+          <Certifications />
           <Footer />
         </main>
       </div>

@@ -35,6 +35,15 @@ export interface SocialLink {
   icon: 'github' | 'linkedin' | 'twitter';
 }
 
+export interface Certification {
+  id: string;
+  name: string;
+  issuer: string;
+  date: string;
+  credentialUrl?: string;
+  image?: string;
+}
+
 export const profileData = {
   name: 'WelinDev',
   role: 'Web Developer',
@@ -47,6 +56,7 @@ export const navigationItems: NavItem[] = [
   { id: 'skills', label: 'Skills' },
   { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
+  { id: 'certifications', label: 'Certifications' },
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -85,12 +95,12 @@ export const experiences: Experience[] = [
 export const projects: Project[] = [
   {
     id: 'welinstore-app',
-    title: 'Welinstore',
+    title: 'WelinStore',
     description:
       'E-commerce platform for selling products online for MTA: San Andreas.',
     technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
     image: 'https://imgur.com/jDHxQwk.png',
-    link: 'https://welinstore.com',
+    link: 'https://welinstore.online',
   },
 ];
 
@@ -109,5 +119,16 @@ export const skillCategories: SkillCategory[] = [
     id: 'tools',
     name: 'Herramientas',
     skills: ['Git', 'GitHub', 'Cursor', 'Docker', 'Azure', 'AWS', 'Shopify'],
+  },
+];
+
+export const certifications: Certification[] = [
+  {
+    id: 'javascrippt-cert',
+    name: 'JavaScript: De cero a experto',
+    issuer: 'Udemy',
+    date: '2025',
+    credentialUrl: 'https://www.udemy.com/certificate/UC-6da53923-0f03-44d0-b3f7-faf6dab85362/',
+    image: 'https://imgur.com/EERn9wC.jpg',
   },
 ];
