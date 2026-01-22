@@ -48,7 +48,7 @@ export const profileData = {
   name: 'WelinDev',
   role: 'Web Developer',
   description: 'Creo experiencias digitales accesibles y con píxeles perfectos para la web.',
-  resumeUrl: '/CVs.pdf',
+  resumeUrl: '/CV.pdf',
 };
 
 export const navigationItems: NavItem[] = [
