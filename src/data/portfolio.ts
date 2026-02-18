@@ -94,6 +94,14 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
+    id: 'sistema-asistencias-cdi',
+    title: 'Sistema de Asistencias CDI',
+    description:
+      'Sistema integral para la gestión de ayudas y asistencias en el CDI. Incluye panel administrativo con control de roles y permisos (RBAC), registro de beneficiarios, control de asistencias, generación de reportes (PDF/Excel) y un módulo de gestión de clases tipo Moodle.',
+    technologies: ['Next.js', 'NestJS', 'PostgreSQL', 'Tailwind CSS', 'TypeScript'],
+    image: 'https://imgur.com/YaPON33',
+  },
+  {
     id: 'welinstore-app',
     title: 'WelinStore',
     description:
