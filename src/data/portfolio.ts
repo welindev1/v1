@@ -107,9 +107,9 @@ export const projects: Project[] = [
     title: 'WelinStore',
     description:
       'E-commerce platform for selling products online for MTA: San Andreas.',
-    technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-    image: 'https://imgur.com/jDHxQwk.png',
-    link: 'https://welinstore.online',
+    technologies: ['Next.js', 'NestJS', 'PostgreSQL', 'Tailwind CSS', 'TypeScript'],
+    image: 'https://imgur.com/XQo3yFN.png',
+    link: 'https://shop.welinstore.online',
   },
 ];
 
